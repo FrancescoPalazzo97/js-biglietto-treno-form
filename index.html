@@ -8,16 +8,46 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <form action="">
-        <input type="text" id="name">
-        <input type="text" id="km">
-        <select name="ages" id="age">
-            <option value="minorenne">Minorenne</option>
-            <option value="maggiorenne">Maggiorenne</option>
-            <option value="senior">Over 65</option>
-        </select>
-        <button>Invia</button>
-    </form>
+    <div class="container">
+        <div class="row bg-1 py-4 px-5 card mt-3">
+            <div class="col">
+                <form action="">
+                    <div class="row row-cols-3">
+                        <div class="col">
+                            <label for="name" class="form-label">Nome e cognome</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label for="km" class="form-label">Inserisci i Km da percorrere</label>
+                            <input type="text" id="km" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label for="age" class="form-label">Inserisci l'età</label>
+                            <select name="ages" id="age" class="form-select">
+                                <option value="minorenne">Minorenne</option>
+                                <option value="maggiorenne">Maggiorenne</option>
+                                <option value="senior">Over 65</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row row-cols-2 mt-3">
+                        <div class="col d-flex j-end">
+                            <button class="btn btn-outline-success">Invia</button>
+                        </div>
+                        <div class="col d-flex">
+                            <button class="btn btn-outline-danger">Annulla</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                
+            </div>
+        </div>
+        
+    </div>
     <div>
         <p id="final-price"></p>
     </div>

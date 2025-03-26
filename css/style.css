@@ -1,0 +1,40 @@
+/* GENERICS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+
+.bg-1 {
+    background-color: #fff;
+}
+
+.form-control,
+.form-select {
+    background-color: #e0dfdf;
+}
+
+/* FLEX */
+
+.d-flex {
+    display: flex;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-start {
+    justify-content: flex-start;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
+
+.card {
+    border-radius: 10px;
+}
